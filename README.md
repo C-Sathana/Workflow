@@ -45,7 +45,7 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone <Workflow>
 cd workflow-app
 ```
 
@@ -76,7 +76,3 @@ Create a `.env` file in the root directory:
 ```
 VITE_API_BASE_URL=http://localhost:5000
 ```
-
-
-
-MIT License
