@@ -1,0 +1,13 @@
+packages:
+  "framer-motion": "For page transitions and interactive step animations"
+  "recharts": "For dashboard analytics charts"
+  "react-hook-form": "For form state management"
+  "@hookform/resolvers": "For Zod form validation"
+  "date-fns": "For human-readable date formatting"
+  "lucide-react": "For UI icons"
+
+images: []
+
+notes:
+  - Assumes customFetch from @workspace/api-client-react correctly intercepts requests to add the Authorization Bearer token from localStorage('wf_token').
+  - The workflow inputSchema is modeled dynamically based on a custom JSON structure.
